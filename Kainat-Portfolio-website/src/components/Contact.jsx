@@ -104,7 +104,7 @@ const Contact = () => {
                    <FaGithub/> 
                 </a>
                  <a 
-                href="https://github.com/Kainat-Shafiq" 
+                href="https://www.linkedin.com/in/kainat-shafiq-859854261/" 
                 className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange-400 hover:bg-orange-400 hover:text-white transition duration-300"
                 >
                    <FaLinkedinIn/> 

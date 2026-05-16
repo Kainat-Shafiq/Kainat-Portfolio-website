@@ -3,7 +3,7 @@ import { LearningData } from "../assets/assets";
 
 const Learning = () => {
   return (
-    <div className="max-w-5xl mx-auto px-6 py-20">
+    <div className="max-w-5xl mx-auto px-6 py-10">
 
       <h2 className="text-3xl font-bold text-center mb-4">
         Learning <span className="text-purple">Journey</span>

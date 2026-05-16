@@ -123,7 +123,7 @@ export const projects = [
     image: ProjectImg6,
     tech: ["React", "Vite", "Tailwind CSS"],
     icons: [FaReact, FaCss3Alt],
-    demo: "#",
+    demo: "https://react-js-course-nacl.vercel.app/",
     code: "#",
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     image: ProjectImg7,
     tech: ["React", "Vite", "Tailwind CSS"],
     icons: [FaReact, FaLock],
-    demo: "#",
+    demo: "https://react-js-course-lcel.vercel.app/",
     code: "#",
   },
   {
@@ -151,7 +151,7 @@ export const LearningData = [
   {
     role: "Frontend Learner",
     company: "Self-Learning",
-    duration: "2025 - Present",
+    duration: "2026 - Present",
     description:
       "Building web applications using HTML, CSS, JavaScript, and React while improving problem-solving skills.",
     color: "purple"
@@ -159,7 +159,7 @@ export const LearningData = [
   {
     role: "Project Development",
     company: "Personal Projects",
-    duration: "2025 - Present",
+    duration: "2026 - Present",
     description:
       "Created projects like BMI Calculator, Number Guessing Game, and Todo App with responsive design and real-world functionality.",
     color: "pink"
