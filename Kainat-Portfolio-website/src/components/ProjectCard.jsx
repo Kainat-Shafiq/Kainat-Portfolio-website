@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = ({ title, description, image, tech, demo, code }) => {
+const ProjectCard = ({ title, description, image,icons, tech, demo, code }) => {
   return (
     <div className="bg-dark-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer">
       <img src={image} alt={title} className="w-full h-60 object-cover" />
@@ -8,6 +8,12 @@ const ProjectCard = ({ title, description, image, tech, demo, code }) => {
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-400">{description}</p>
+
+         <div className="flex gap-3 mb-3">
+          {icons?.map((Icon, index) => (
+            <Icon key={index} className="text-purple text-xl" />
+          ))}
+        </div>
 
         <div className="flex flex-wrap gap-2 mt-3">
           {tech.map((item, index) => (
@@ -20,7 +26,7 @@ const ProjectCard = ({ title, description, image, tech, demo, code }) => {
              <a href={demo}
                target="_blank" 
               rel="noopener noreferrer"
-              className="flex-1 text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700">
+              className="flex-1 text-center px-4 py-2  bg-purple rounded-lg font-medium hover:bg-purple-700">
                  View Demo
              </a>
              <a 
